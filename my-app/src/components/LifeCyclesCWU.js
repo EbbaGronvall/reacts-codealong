@@ -1,27 +1,27 @@
-import React, { Component } from 'react'
-import LifeCyclesCWUTracker from './LifeCyclesCWUTracker'
+// import React, { Component } from 'react'
+// import LifeCyclesCWUTracker from './LifeCyclesCWUTracker'
 
-export class LifeCyclesCWU extends Component {
-    constructor(props) {
-        super(props)
+// export class LifeCyclesCWU extends Component {
+//     constructor(props) {
+//         super(props)
 
-        this.state = {
-            visible: true
-        }
-    }
+//         this.state = {
+//             visible: true
+//         }
+//     }
 
-    toggleDisplay = () => {
-        this.setState((prevState) => ({ visible: !prevState.visible }))
-    }
+//     toggleDisplay = () => {
+//         this.setState((prevState) => ({ visible: !prevState.visible }))
+//     }
 
-    render() {
-        return (
-            <div>
-                {this.state.visible && <LifeCyclesCWUTracker />}
-                <button onClick={this.toggleDisplay}>Toggle Display</button>
-            </div>
-        )
-    }
-}
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.visible && <LifeCyclesCWUTracker />}
+//                 <button onClick={this.toggleDisplay}>Toggle Display</button>
+//             </div>
+//         )
+//     }
+// }
 
-export default LifeCyclesCWU
+// export default LifeCyclesCWU
