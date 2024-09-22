@@ -4,7 +4,7 @@ import UseEffectCounter from "./components/UseEffectCounter";
 
 function App() {
   return <div className="App">
-      <ClassCounter />
+      {/* <ClassCounter /> */}
       <UseEffectCounter />
   </div>;
 }
